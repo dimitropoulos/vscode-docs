@@ -27,7 +27,6 @@ its documentation, signature etc.
 ![Information on hover](images/go/hover.png)
 
 By default, the extension uses `godef` and `godoc` to get this information. 
-These tools have some limitations around packages that are dot imported, unexported members from current package and structs.
 You can choose to use `gogetdoc` instead by changing the setting `go.docsTool` in your User or Workspace Settings.
 
 ### Signature help
@@ -39,7 +38,6 @@ When you open the `(` while calling a function, a pop up provides signature help
 cursor is inside the `()` in the function call.
 
 By default, the extension uses `godef` and `godoc` to get this information. 
-These tools have some limitations around packages that are dot imported, unexported members from current package and structs.
 You can choose to use `gogetdoc` instead by changing the setting `go.docsTool` in your User or Workspace Settings.
 
 ## Code navigation
